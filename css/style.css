@@ -1,0 +1,116 @@
+/*GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*CORES*/
+:root {
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/*FONTES*/
+.monteserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fraunces {
+    font-family:'Fraunces', serif; ;
+}
+
+/*FUNDO*/
+main {
+    height: 100vh;
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CARD*/
+.card {
+    background-color: var(--White);
+    display: flex;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.img-g {
+    width: 250px;
+    border-radius: 10px 0px 0px 10px; 
+}
+
+/*ANÚNCIO (ad)*/
+.ad {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.text-anun, .price2 {
+    color: var(--Darkgrayishblue);
+}
+
+.title {
+    font-size: 2.2rem;;
+}
+
+.let-spa {
+    letter-spacing: 5px;
+}
+
+.lin-hei {
+    line-height: 30px;
+}
+
+/*PREÇO*/
+.price {
+    display: flex;
+    column-gap: 30px;
+}
+
+.price1 {
+    font-size: 2.25rem;
+    color: var(--Darkcyan);
+}
+
+.price2 {
+    padding-top: 15px;
+    text-decoration: line-through;
+}
+
+/*BOTÃO*/
+.cart {
+    padding: 1rem;
+    background-color: var(--Darkcyan);
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cart:hover {
+    background-color: #1B402E;
+}
+
+.cart-p {
+    color: var(--White);
+    font-weight: 700;
+}
+
+.cart a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-cart {
+    margin-right: 10px;
+}
+
+@media (max-width: 500px)
