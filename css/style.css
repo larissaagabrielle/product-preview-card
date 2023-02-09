@@ -35,22 +35,31 @@ main {
 .card {
     background-color: var(--White);
     display: flex;
-    width: 500px;
-    height: 350px;
+    width: 600px;
+    height: 450px;
     border-radius: 10px;
 }
 
+picture {
+    width: 50%;
+    height: 100%;
+}
+
 .img-g {
-    width: 250px;
+    height: 100%;
     border-radius: 10px 0px 0px 10px; 
 }
 
 /*ANÚNCIO (ad)*/
 .ad {
-    padding: 40px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
+    row-gap: 25px;
+}
+
+.text-anun {
+    font-size: 0.8rem;
 }
 
 .text-anun, .price2 {
@@ -58,15 +67,17 @@ main {
 }
 
 .title {
-    font-size: 2.2rem;;
+    font-size: 2rem;
+    line-height: 31px;
+}
+
+.text-anun-body {
+    font-size: 0.9rem;
+    line-height: 23px;
 }
 
 .let-spa {
     letter-spacing: 5px;
-}
-
-.lin-hei {
-    line-height: 30px;
 }
 
 /*PREÇO*/
@@ -76,18 +87,19 @@ main {
 }
 
 .price1 {
-    font-size: 2.25rem;
+    font-size: 1.9rem;
     color: var(--Darkcyan);
 }
 
 .price2 {
-    padding-top: 15px;
+    font-size: 0.8rem;
+    padding-top: 12px;
     text-decoration: line-through;
 }
 
 /*BOTÃO*/
 .cart {
-    padding: 1rem;
+    padding: 14px;
     background-color: var(--Darkcyan);
     font-size: 15px;
     border: none;
@@ -112,5 +124,3 @@ main {
 .icon-cart {
     margin-right: 10px;
 }
-
-@media (max-width: 500px)
