@@ -68,11 +68,11 @@ picture {
 
 .title {
     font-size: 2rem;
-    line-height: 31px;
+    line-height: 28px;
 }
 
 .text-anun-body {
-    font-size: 0.9rem;
+    font-size: 0.86rem;
     line-height: 23px;
 }
 
@@ -99,7 +99,8 @@ picture {
 
 /*BOTÃO*/
 .cart {
-    padding: 14px;
+    /* padding: 14px; */
+    height: 48px;
     background-color: var(--Darkcyan);
     font-size: 15px;
     border: none;
@@ -129,7 +130,7 @@ picture {
     .card {
         flex-direction: column;
         width: 340px;
-        height: 670px;
+        height: 614px;
     }
     picture {
         width: 340px;
@@ -142,6 +143,6 @@ picture {
     }
     .ad {
         padding: 25px;
-        row-gap: 20px;
+        row-gap: 18px;
     }
 }
